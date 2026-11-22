@@ -36,7 +36,8 @@ java-programming-practice/
 │   ├── OverloadingOverriding.java
 │   ├── StringPalindrome.java
 │   └── QuizManagementSystem/
-│      |--─ Unit-3-Encapsulation-Packages/
+│
+├── Unit-3-Encapsulation-Packages/
 │   ├── Encapsulation.java
 │   ├── AccessModifiers/
 │   ├── mypackage/
@@ -48,6 +49,17 @@ java-programming-practice/
 │   ├── CustomException.java
 │   ├── ArithmeticExceptionDemo.java
 │   └── ThreadDemo.java
+│
+├── Unit-5-Collection-Framework/
+│   ├── CollectionInterface.java
+│   ├── ListInterface.java
+│   ├── ArrayListDemo.java
+│   ├── LinkedListDemo.java
+│   ├── SetInterface.java
+│   ├── SortedSetDemo.java
+│   ├── MapInterface.java
+│   ├── SortedMapDemo.java
+│   └── IterableInterface.java
 │
 └── README.md
 ```
@@ -85,6 +97,90 @@ java-programming-practice/
 2. User-Defined Exception
 3. ArithmeticException Handling
 4. Thread Class Implementation
+
+### Unit V - Collection and collection framework
+1. Collection Interface
+
+Introduction to Collection Interface
+
+Features and methods of Collection
+
+Adding, removing, and accessing elements
+
+2. Child Interfaces of Collection Framework
+
+List Interface
+
+Set Interface
+
+SortedSet Interface
+
+3. List Interface
+
+Introduction to List
+
+Allows duplicate elements
+
+Maintains insertion order
+
+4. ArrayList
+
+Dynamic array implementation
+
+Allows duplicate elements
+Fast element access
+Adding, updating, and removing elements
+
+5. LinkedList
+Doubly linked list implementation
+
+Allows duplicate elements
+
+Insertion and deletion operations
+
+Difference between ArrayList and LinkedList
+
+6. Set Interface
+
+Does not allow duplicate elements
+
+Stores unique elements
+
+HashSet and LinkedHashSet
+
+7. SortedSet Interface
+
+Stores unique elements in sorted order
+
+TreeSet implementation
+
+First, last, and subset operations
+
+8. Map Interface
+
+Stores data in key-value pairs
+
+Keys must be unique
+
+Values can be duplicated
+
+HashMap, LinkedHashMap, and TreeMap
+
+9. SortedMap Interface
+
+Stores key-value pairs in sorted key order
+
+TreeMap implementation
+
+First key, last key, and subMap operations
+
+10. Iterable Interface
+
+Root interface for iterating over elements
+
+Supports the Iterator interface
+
+Used with enhanced for loops
 
 ## 🎯 Mini Project – Quiz Management System
 
